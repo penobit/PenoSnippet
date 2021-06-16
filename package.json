@@ -1,0 +1,24 @@
+{
+  "name": "PenoSnippet",
+  "version": "0.5.0",
+  "description": "Easily extract CSS and HTML from selected element. Then send it to CodePen, jsFiddle or JS Bin with one click.",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/penobit/PenoSnippet.git"
+  },
+  "author": "Konrad Dzwinel",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/penobit/PenoSnippet/issues"
+  },
+  "homepage": "https://github.com/penobit/PenoSnippet",
+  "dependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.9.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-zip": "~0.13.0",
+    "grunt-html": "^5.0.0"
+  }
+}

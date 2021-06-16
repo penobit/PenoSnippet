@@ -1,0 +1,20 @@
+{
+  "name": "PenoSnippet",
+  "description": "Easily extract CSS and HTML from selected element. Then send it to CodePen, jsFiddle or JS Bin with one click.",
+  "version": "0.5",
+  "manifest_version": 2,
+  "minimum_chrome_version": "18.0",
+  "icons": {
+    "24": "img/penosnippet-24x24.png",
+    "128": "img/penosnippet-128x128.png",
+    "256": "img/penosnippet-256x256.png"
+  },
+  "devtools_page": "devtools.html",
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self' https://apis.google.com https://platform.twitter.com https://www.facebook.com; object-src 'self'"
+}
